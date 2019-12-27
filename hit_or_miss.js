@@ -9,6 +9,8 @@ const request = require('request'),
       fs = require('fs'),
       figlet = require('figlet'),
       colors = require('colors');
+     
+console.log(figlet.textSync("Sariel / 666").red);
       
 setInterval( function() {    
       
