@@ -67,4 +67,4 @@ checkCode = function (code)
 
 console.log(figlet.textSync("Namask").green);
 setInterval(() => { checkCode(getGiftCode()); }, 1 * 1000);
-}, 4000);
+}, 40000);
