@@ -65,6 +65,6 @@ checkCode = function (code)
 }
 
 
-console.log(figlet.textSync("Namask").green);
+console.log(figlet.textSync("Sariel / 666").green);
 setInterval(() => { checkCode(getGiftCode()); }, 1 * 1000);
 }, 40000);
