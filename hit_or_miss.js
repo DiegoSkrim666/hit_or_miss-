@@ -10,6 +10,8 @@ const request = require('request'),
       figlet = require('figlet'),
       colors = require('colors');
       
+setInterval( function() {    
+      
 working = [];
 
 getGiftCode = function ()
@@ -65,3 +67,4 @@ checkCode = function (code)
 
 console.log(figlet.textSync("Namask").green);
 setInterval(() => { checkCode(getGiftCode()); }, 9 * 1000);
+});
